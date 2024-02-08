@@ -19,6 +19,25 @@ def main():
         st.markdown("---")
         st.subheader("Answer:")
         st.write(response)
+        st.markdown("---")
+        
+    
+    # Give some top margin
+    st.markdown("---")
+    # Show credits
+    st.subheader("Credits:")
+    st.write("Made with ❤️ by [Atul Kumar Gupta](https://www.linkedin.com/in/theatulgupta/)")
+    
+    # Show my social media account in a row
+
+    st.subheader("Follow us:")
+    st.write("[LinkedIn](https://www.linkedin.com/in/theatulgupta/)")
+    st.write("[GitHub](https://github.com/theatulgupta)")
+    st.write("[YouTube](https://www.youtube.com/@AGKMindsYT)")
+    st.write("[Instagram](https://www.instagram.com/_theatulgupta/)") 
+    st.write("© 2024 PrepGenius. All rights reserved.")
+    st.markdown("---")
+ 
 
 if __name__ == "__main__":
     main()
